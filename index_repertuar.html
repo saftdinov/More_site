@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Repertuar</title>
+    <link rel="stylesheet" href="style/style_repertuar.css">
+    <link rel="stylesheet" href="style/footer.css">
+</head>
+<body>
+    <div class="all">
+        <header class="header">
+            <div class="header-top">
+                <div class="header-logo">
+                    <a href="index.html" class="image-button">
+                        <img src="img/Group%2010.png" alt="Логотип">
+                    </a>
+                </div>
+                <nav class="header-nav">
+                    <a href="index_galereya.html" class="header-nav-galereya">О нас</a>
+                    <a href="index_listalka.html" class="header-nav-galereya">Участники</a>
+                    <a href="index_portfolio.html" class="header-nav-galereya">Портфолио</a>
+                <a href="admin.html" class="header-nav-galereya header-nav-admin">Админ</a>
+                </nav>
+            </div>
+        </header>
+        <div class="article">
+            <div class="article-main">
+                <div class="info-center">
+                    <div class="info-center-txt">
+                        <p>Репертуар</p>
+                    </div>
+                </div>
+                <input id="repertoireSearch" class="repertoire-search" type="search" placeholder="Поиск исполнителя или песни..."><p id="repertoireEmpty" hidden>Ничего не найдено.</p>
+                <section class="song-cart" aria-live="polite"><div><strong>Выбрано песен: <span id="songCartCount">0</span></strong><p id="songCartSummary">Отметьте песни, которые хотите услышать на мероприятии.</p></div><div class="song-cart-actions"><button type="button" id="clearSongCart" class="song-cart-clear">Очистить</button><button type="button" id="sendSongCart" class="song-cart-send">Добавить в заявку</button></div></section>
+                <div class="repertuar">
+                    <div class="repertuar-columns">
+                        <div class="repertuar-column">
+                            <div class="alphabet-section">
+                                <div class="alphabet-letter">Б</div>
+                                <div class="repertuar-item">
+                                    <img src="img/tochka.png" alt="tochka">
+                                    <p><span class="repertuar-artist">Бонд с кнопкой</span><br><span class="repertuar-song">Кухни</span></p>
+                                </div>
+                            </div>
+                            <div class="alphabet-section">
+                                <div class="alphabet-letter">В</div>
+                                <div class="repertuar-item">
+                                    <img src="img/tochka.png" alt="tochka">
+                                    <p><span class="repertuar-artist">Валентин Стрыкало</span><br><span class="repertuar-song">Яхта парус</span></p>
+                                </div>
+                                <div class="repertuar-item">
+                                    <img src="img/tochka.png" alt="tochka">
+                                    <p><span class="repertuar-artist">Валерий Меладзе</span><br><span class="repertuar-song">Красиво</span></p>
+                                </div>
+                                <div class="repertuar-item">
+                                    <img src="img/tochka.png" alt="tochka">
+                                    <p><span class="repertuar-artist">Валерий Меладзе</span><br><span class="repertuar-song">Самба белого мотылька</span></p>
+                                </div>
+                            </div>
+
+                            <div class="alphabet-section">
+                                <div class="alphabet-letter">Ж</div>
+                                <div class="repertuar-item">
+                                    <img src="img/tochka.png" alt="tochka">
+                                    <p><span class="repertuar-artist">Женя Трофимов</span><br><span class="repertuar-song">Поезда</span></p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="repertuar-column repertuar-column-right">
+                            <div class="alphabet-section">
+                                <div class="alphabet-letter">И</div>
+                                <div class="repertuar-item">
+                                    <img src="img/tochka.png" alt="tochka">
+                                    <p><span class="repertuar-artist">Ирина Аллегрова</span><br><span class="repertuar-song">Угонщица</span></p>
+                                </div>
+                            </div>
+
+                            <div class="alphabet-section">
+                                <div class="alphabet-letter">М</div>
+                                <div class="repertuar-item">
+                                    <img src="img/tochka.png" alt="tochka">
+                                    <p><span class="repertuar-artist">МакSим</span><br><span class="repertuar-song">Отпускаю</span></p>
+                                </div>
+                                <div class="repertuar-item">
+                                    <img src="img/tochka.png" alt="tochka">
+                                    <p><span class="repertuar-artist">Мумий Тролль</span><br><span class="repertuar-song">Владивосток 2000</span></p>
+                                </div>
+                            </div>
+
+                            <div class="alphabet-section">
+                                <div class="alphabet-letter">Р</div>
+                                <div class="repertuar-item">
+                                    <img src="img/tochka.png" alt="tochka">
+                                    <p><span class="repertuar-artist">Ранетки</span><br><span class="repertuar-song">О тебе</span></p>
+                                </div>
+                                <div class="repertuar-item">
+                                    <img src="img/tochka.png" alt="tochka">
+                                    <p><span class="repertuar-artist">Рок-Остров</span><br><span class="repertuar-song">Ничего не говори</span></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div data-footer></div>
+    <script src="js/script.js" defer></script>
+    <script src="js/footer.js" defer></script>
+</body>
+</html>

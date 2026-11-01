@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kursach</title>
+    <link rel="stylesheet" href="style/style_bronirovanie.css">
+    <link rel="stylesheet" href="style/footer.css">
+</head>
+<body>
+    <div class="all">
+        <header class="header">
+            <div class="header-top">
+                <div class="header-logo">
+                    <a href="index.html" class="image-button">
+                        <img src="img/Group%2010.png" alt="Логотип">
+                    </a>
+                </div>
+                <nav class="header-nav">
+                    <a href="index_galereya.html" class="header-nav-galereya">О нас</a>
+                    <a href="index_listalka.html" class="header-nav-galereya">Участники</a>
+                    <a href="index_portfolio.html" class="header-nav-galereya">Портфолио</a>
+                <a href="admin.html" class="header-nav-galereya header-nav-admin">Админ</a>
+                </nav>
+            </div>
+        </header>
+        <div class="article">
+            <div class="article-main">
+                <form class="form" id="bookingForm">
+                    <h2
+                        class="title">Забронировать
+                    </h2>
+
+                    <div class="booking-dates booking-schedule">
+                        <label class="date-picker"><span>Дата мероприятия</span><input id="bookingDateStart" class="date-input" type="date" required></label>
+                        <label class="date-picker"><span>Время с</span><input id="bookingTimeStart" class="date-input" type="time" value="18:00" required></label>
+                        <label class="date-picker"><span>Время до</span><input id="bookingTimeEnd" class="date-input" type="time" value="23:00" required></label>
+                    </div>
+
+                    <div class="row">
+                        <input id="bookingName" type="text" placeholder="Ваше имя" class="input" required>
+                        <input id="bookingGuests" type="number" min="1" max="500" placeholder="Гостей" class="input" required>
+                    </div>
+                    <div class="input-full">
+                        <input id="bookingPhone" type="tel" placeholder="Телефон" class="input full" required>
+                        <input id="bookingWishes" type="text" placeholder="Пожелания" class="input full">
+                    </div>
+                    <button type="submit" class="submit">Отправить заявку
+                    </button>
+                    <p id="siteNotice" class="site-notice" role="status"></p>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div data-footer></div>
+    <script src="js/script.js" defer></script>
+    <script src="js/footer.js" defer></script>
+</body>
+</html>

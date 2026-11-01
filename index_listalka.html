@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uchastniki</title>
+    <link rel="stylesheet" href="style/style_listalka.css">
+    <link rel="stylesheet" href="style/footer.css">
+</head>
+<body>
+    <div class="all">
+        <header class="header">
+            <div class="header-top">
+                <div class="header-logo">
+                    <a href="index.html" class="image-button">
+                        <img src="img/Group%2010.png" alt="Логотип">
+                    </a>
+                </div>
+                <nav class="header-nav">
+                    <a href="index_galereya.html" class="header-nav-galereya">О нас</a>
+                    <a href="index_listalka.html" class="header-nav-galereya">Участники</a>
+                    <a href="index_portfolio.html" class="header-nav-galereya">Портфолио</a>
+                <a href="admin.html" class="header-nav-galereya header-nav-admin">Админ</a>
+                </nav>
+            </div>
+        </header>
+        <div class="article">
+            <div class="article-main">
+                <div class="info-center">
+                    <div class="info-center-txt">
+                        <p>Участники</p>
+                    </div>
+                </div>
+                <div class="slider-main">
+                    <div class="slider">
+                        <button type="button" class="slider-btn" data-participant-move="-1">
+                            <img src="img/Arrow%20down-circle.png" alt="left">
+                        </button>
+                        <button type="button" class="slider-btn" data-participant-move="1">
+                            <img src="img/slider-img-right.png" alt="right">
+                        </button>
+                    </div>
+                    <div class="slider-img" id="membersDynamic"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div data-footer></div>
+    <script src="js/script.js" defer></script>
+    <script src="js/footer.js" defer></script>
+</body>
+</html>
